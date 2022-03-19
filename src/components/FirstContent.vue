@@ -16,7 +16,8 @@
       </div>
 
       <div class="col text-center align-bottom">
-        <img src="../assets/profile.png" alt="" style="max-width: 60%" />
+        <img src="/detective.png" style="width:70%" alt="">
+        
       </div>
     </div>
   </div>

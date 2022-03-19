@@ -24,8 +24,10 @@
       </button>
     </div>
     <div class="col">
-     <img src="" alt="">
-     tard
+   <img src="../assets/profile.png" alt="" style="max-width: 80%" />
+   pensar na foto
+    
+    
     </div>
     </div>
   </div>
