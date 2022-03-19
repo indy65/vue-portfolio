@@ -3,6 +3,7 @@
 <Header/>
 <FirstContent/>
 <About/>
+<Specialties/>
   </div>
 </template>
 
@@ -11,9 +12,11 @@
 import Header from "./components/Header.vue"
 import FirstContent from "./components/FirstContent.vue"
 import About from "./components/About.vue"
+import Specialties from "./components/Specialties.vue"
 export default {
   name: 'App',
   components: {
+    Specialties,
     About,
     Header,
     FirstContent,
@@ -30,10 +33,10 @@ padding: 0;
 margin: 0;
 }
 .container{
-
+background-color: #2F2F2F;
 }
 #app {
-  background-color: #2F2F2F;
+  
 height: 1900px;
 }
 </style>
