@@ -1,7 +1,10 @@
 <template>
-  <div class="container">
+  <div class="v-container">
+    <div class="container">
+
+   
     <div class="row">
-      <div class="col text-left">
+      <div class="col-md-6 col-12 text-left">
        
           <h1>João</h1>
           <h1>Cerqueira</h1>
@@ -11,15 +14,17 @@
             framework within it
           </h4>
 
-          <button v-on:click="funcao()">Get in touch</button>
+          <button v-on:click="funcao()"><a href="#tard" style="text-decoration:none;color:black">Get in touch</a></button>
      
       </div>
 
-      <div class="col text-center align-bottom">
-        <img src="/detective.png" style="width:70%" alt="">
+      <div class="col-md-6 col-12 text-center align-bottom">
+        
+        <img src="/computer.png" style="width:70%" alt="">
         
       </div>
     </div>
+     </div>
   </div>
 </template>
 
@@ -61,7 +66,7 @@ h1 {
 .text-left {
   text-align: left;
 }
-.container {
+.v-container {
   font-family: Red Hat Display, sans-serif;
   padding-top: 100px;
   color: white;
@@ -72,12 +77,11 @@ h1 {
 .row {
   padding-top: 100px;
   margin: auto;
-  width: 70%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.col {
+.v-col {
   margin: 0 30px 0 30px;
   flex: 1 40px;
 }
