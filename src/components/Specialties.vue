@@ -1,14 +1,15 @@
 <template>
   <div class="v-container text-center"> 
-    <h2 class="display-1 pb-5">What makes me happy</h2>
-      <div class="row justify-content-center pt-5">
+    <h2 class="display-1 pb-5">Specialized tools</h2>
+      <div class="row justify-content-center" style="margin-top:200px">
          
-          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://logospng.org/download/react/logo-react-256.png" alt="" style="width:50%;"> </div>
-          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" alt="" style="width:50%;"></div>
-          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://www.svgrepo.com/show/303293/bootstrap-4-logo.svg" alt="" style="width:50%;">  </div>
-          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://iconape.com/wp-content/files/vr/353405/svg/javascript-js-seeklogo.com.svg" alt="" style="width:50%;">  </div>
-          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="" style="width:50%;"> </div>
-          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png" alt="" style="width:50%;"> </div>
+          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://logospng.org/download/react/logo-react-256.png" alt="React" style="width:50%;"> </div>
+          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" alt="Vue" style="width:50%;"></div>
+          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://www.svgrepo.com/show/303293/bootstrap-4-logo.svg" alt="Bootstrap" style="width:50%;">  </div>
+          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://iconape.com/wp-content/files/vr/353405/svg/javascript-js-seeklogo.com.svg" alt="Javascript" style="width:50%;">  </div>
+          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://logospng.org/download/css-3/logo-css-3-256.png" alt="CSS" style="width:50%;"> </div>
+          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png" alt="HTML" style="width:50%;"> </div>
+          <div class="item col-md-3 col-sm-6 m-4 card"><img src="https://logospng.org/download/node-js/logo-node-js-256.png" alt="NodeJs" style="width:50%;"> </div>
 
       </div>
       <p id="tard"></p>
@@ -52,7 +53,8 @@ img{
   flex: 1 40px;
 }
 h2{
-  color:rgb(31, 221, 238);
+  /*color:rgb(31, 221, 238);*/
+  font-weight: bolder;
 }
 .item{
   max-width:200px;

@@ -1,34 +1,34 @@
 <template>
   <div class="v-container">
-    <div class="row">
-    <div class="col">
-      <h2 class="text-fluid">
-        Im João Cerqueira from Portugal and im a Front end developer who's goal
-        is to become the javascript master and a reliable programer
-      </h2>
+      <div class="col-8 m-auto">
+    <div class="row justify-content-center">
+        <div class="col-xl-6 order-2  order-xl-1 ">
+          <p class="text-fluid">
+            Im João Cerqueira from Portugal and im a Front end developer who's
+            goal is to become the javascript master and a reliable programer
+          </p>
 
-      <h2 class="text-fluid">
-        I focus mainly on javascript framerworks such as Vuejs and React while
-        styling my UI with mainly bootstrap and pure CSS
-      </h2>
+          <p class="text-fluid">
+            I focus mainly on javascript framerworks such as Vuejs and React
+            while styling my UI with mainly bootstrap and pure CSS
+          </p>
 
-      <h2 class="text-fluid">
-        Always keeping an eye open for the new ways of coding by building small
-        projects, curious? check out my git repository &#128516; !
-      </h2>
-      <h1 class="text-fluid">Moving on to the spicy stuff 👇</h1>
-      <button>
-        <a href="./Joao_Cerqueira_CV.pdf" style="text-decoration: none" download
-          >download cv</a
-        >
-      </button>
-    </div>
-    <div class="col text-center">
-   <!--<img src="../assets/profile.png" alt="" style="max-width: 60%" />-->
-   <img src="detective.png" alt="" style="width: 70%" />
-    
-    
-    </div>
+          <p class="text-fluid">
+            Always keeping an eye open for the new ways of coding by building
+            small projects, curious? check out my git repository &#128516; !
+          </p>
+          
+        </div>
+        <div class="col-xl-6 text-center order-1 order-xl-2 mb-5 ">
+          <!--<img src="../assets/profile.png" alt="" style="max-width: 60%" />-->
+          <img src="detective.png" alt="" class="img-fluid" />
+        </div>
+       
+      </div>
+       <div class="col-12 text-end pt-5">
+         <h1 class="text-center">Moving on to the spicy stuff 👇</h1>
+                   
+        </div>
     </div>
   </div>
 </template>
@@ -59,7 +59,7 @@ export default {};
   margin: 0 30px 0 30px;
   flex: 1 40px;
 }
-.text-fluid{
-  font-size: clamp(1rem,2vw,2rem);
+.text-fluid {
+  font-size: clamp(1rem,1.3vw,1.3rem);
 }
 </style>

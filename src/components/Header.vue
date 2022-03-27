@@ -1,8 +1,15 @@
 <template>
   <div class="v-container">
     <div class="v-row">
-      <div class="col" style="color:rgb(31, 221, 238)"><h1>LOGO</h1></div>
-      <div class="col">
+      <div class="col align-self-center" style="color:rgb(31, 221, 238)"> <button class="btn">
+            <a
+              href="./Joao_Cerqueira_CV.pdf"
+              style="text-decoration: none;color:black;"
+              download
+              >Download cv</a
+            >
+          </button></div>
+      <div class="col align-self-center">
         <div class="row">
           <div class="col ">
             <h3 class="v-navItem ">Home</h3>
@@ -51,6 +58,7 @@ export default {
   width: 70%;
   display: flex;
   justify-content: space-between;
+  height: 70px;
 }
 .v-col {
   
@@ -65,6 +73,9 @@ export default {
   
   color: rgb(31, 221, 238);
   cursor: pointer;
+}
+button{
+   background-color: rgb(31, 221, 238);
 }
 
 </style>
