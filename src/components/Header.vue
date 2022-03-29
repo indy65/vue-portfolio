@@ -10,18 +10,18 @@
             >
           </button></div>
       <div class="col align-self-center">
-        <div class="row">
+        <div class="row text-center">
           <div class="col ">
-            <h3 class="v-navItem ">Home</h3>
+            <a class="tab-item" href="#home"><h3 class="v-navItem">Home</h3></a>
           </div>
           <div class="col">
-            <h3 class="v-navItem">About</h3>
+            <a class="tab-item" href="#about"><h3 class="v-navItem">About</h3></a>
           </div>
           <div class="col">
-            <h3 class="v-navItem">Projects</h3>
+            <a class="tab-item" href="#tools"><h3 class="v-navItem">Tools</h3></a>
           </div>
           <div class="col">
-            <h3 class="v-navItem">Contacts</h3>
+            <a class="tab-item" href="#social"><h3 class="v-navItem">Social</h3></a>
           </div>
         </div>
       </div>
@@ -52,6 +52,7 @@ export default {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   height: 70px;
+  z-index: 9999;
 }
 .v-row {
   margin: auto;
@@ -76,6 +77,11 @@ export default {
 }
 button{
    background-color: rgb(31, 221, 238);
+}
+.tab-item{
+  color: white;
+  text-decoration: none;
+  
 }
 
 </style>

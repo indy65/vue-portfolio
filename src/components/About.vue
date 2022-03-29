@@ -1,8 +1,8 @@
 <template>
-  <div class="v-container">
+  <div id="about" class="v-container">
       <div class="col-8 m-auto">
     <div class="row justify-content-center">
-        <div class="col-xl-6 order-2  order-xl-1 ">
+        <div class="col-xl-6 order-2 order-xl-1 ">
           <p class="text-fluid">
             Im João Cerqueira from Portugal and im a Front end developer who's
             goal is to become the javascript master and a reliable programer
@@ -26,7 +26,7 @@
        
       </div>
        <div class="col-12 text-end pt-5">
-         <h1 class="text-center">Moving on to the spicy stuff 👇</h1>
+         <h1 class=" text-center">Moving on to the spicy stuff 👇</h1>
                    
         </div>
     </div>
@@ -61,5 +61,11 @@ export default {};
 }
 .text-fluid {
   font-size: clamp(1rem,1.3vw,1.3rem);
+  /*font-family: "Lucida Console", "Courier New", monospace;*/
 }
+h1{
+   -webkit-text-stroke: 2px black;
+    color:rgb(31, 221, 238);
+}
+
 </style>

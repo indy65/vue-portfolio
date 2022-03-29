@@ -29,8 +29,10 @@ export default {
 
 <style>
 *,p,h1,h2,h3,h4,h5{
+ 
   font-weight: bolder;
   font-family: Red Hat Display, sans-serif;
+ 
 }
 body{
 padding: 0;
