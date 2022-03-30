@@ -1,38 +1,45 @@
 <template>
   <div id="social">
     <div class="container pt-5">
-      <h1 class="text-center">Wanna do something great together?</h1>
-      <div class="d-flex">
-        <p style="display:inline;">teste</p>
-          <img
-            src="https://itonlineblog.files.wordpress.com/2010/09/linkedin.png?w=256"
-            alt=""
-            style="width:128px"
-            class=""
-          />
-        
-      </div>
-      <div class="d-flex">
-        <p style="display:inline;">teste</p>
-          <img
-            src="https://cdn.iconscout.com/icon/free/png-256/email-1818372-1541480.png"
-            alt=""
-            style="width:128px"
-            class=""
-          />
-        
-      </div>
-      <div class="d-flex">
-        <p style="display:inline;">teste</p>
-          <img
-            src="https://www.dcc.fc.up.pt/~edrdo/aulas/bd/images/github.png"
-            alt=""
-            style="width:128px"
-            class=""
-          />
-        
+      <h1 class="text-center mb-5">Want to know more about me?</h1>
+      <div class="row m-auto text-center col-8">
+        <div class="col">
+          <a
+            href="https://www.linkedin.com/in/jo%C3%A3o-cerqueira-b371b918b/"
+            target="_blank"
+          >
+            <img
+              src="https://freeiconshop.com/wp-content/uploads/edd/linkedin-flat.png"
+              alt="Linkedin"
+              style="width: 128px"
+              title="Linkedin"
+              class=""
+          /></a>
+        </div>
+        <div class="col">
+          <a href="" target="_blank">
+            <img
+              src="https://www.shareicon.net/data/256x256/2017/02/09/878610_email_512x512.png"
+              alt="Email"
+              style="width: 128px"
+              title="Email"
+          /></a>
+        </div>
+        <div class="col">
+          <a href="https://github.com/indy65" target="_blank">
+            <img
+              src="github.png"
+              alt="Github"
+              style="width: 128px"
+              title="Github"
+          /></a>
+        </div>
+        <div class="col-12 text-center mt-5">
+          <img src="question.png" alt="" />
+        </div>
       </div>
     </div>
+   
   </div>
 </template>
 
@@ -41,13 +48,21 @@ export default {};
 </script>
 
 <style scoped>
-#content {
-  background-color: #1f1f1f;
+#social {
+  min-height: 100vh;
+  position: relative;
 }
 p {
   color: white;
 }
-h1{
+h1 {
   color: rgb(31, 221, 238);
+}
+.rights{
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 </style>

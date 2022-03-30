@@ -72,7 +72,7 @@ h1 {
   color: white;
   width: 100%;
   background-color: #1f1f1f;
-  height: 100vh;
+  min-height: 100vh;
 }
 .row {
   padding-top: 100px;

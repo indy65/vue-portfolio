@@ -44,8 +44,7 @@ export default {};
   color: white;
   width: 80%;
   margin: auto;
-
-  height: 100vh;
+  min-height: 100vh;
 }
 .v-row {
   padding-top: 100px;
