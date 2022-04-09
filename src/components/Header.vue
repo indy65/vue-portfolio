@@ -3,7 +3,7 @@
     <div class="v-row">
       <div class="col align-self-center" style="color:rgb(31, 221, 238)"> <button class="btn">
             <a
-              href="./Joao_Cerqueira_CV.pdf"
+              href="Joao_Cerqueira_CV.pdf"
               style="text-decoration: none;color:black;"
               download
               >Download cv</a
@@ -11,16 +11,16 @@
           </button></div>
       <div class="col align-self-center">
         <div class="row text-center">
-          <div class="col ">
+          <div class="col-6 col-sm-3 ">
             <a class="tab-item" href="#home"><h3 class="v-navItem">Home</h3></a>
           </div>
-          <div class="col">
+          <div class="col-6 col-sm-3">
             <a class="tab-item" href="#about"><h3 class="v-navItem">About</h3></a>
           </div>
-          <div class="col">
+          <div class="col-6 col-sm-3">
             <a class="tab-item" href="#tools"><h3 class="v-navItem">Tools</h3></a>
           </div>
-          <div class="col">
+          <div class="col-6 col-sm-3">
             <a class="tab-item" href="#social"><h3 class="v-navItem">Social</h3></a>
           </div>
         </div>
@@ -69,6 +69,7 @@ export default {
 
 .v-navItem{
   font-weight: bolder;
+  font-size: clamp(1rem,2vw,3rem);
 }
 .v-navItem:hover{
   
@@ -81,6 +82,7 @@ button{
 .tab-item{
   color: white;
   text-decoration: none;
+
   
 }
 

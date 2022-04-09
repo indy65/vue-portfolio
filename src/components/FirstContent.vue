@@ -11,16 +11,16 @@
           <h2 style="color: rgb(31, 221, 238)">Front end Developer</h2>
           <h4>
             Front end developer with javascript as the main focus and every
-            framework within it
+            framework/library within it
           </h4>
 
-          <button v-on:click="funcao()"><a href="#tard" style="text-decoration:none;color:black">Get in touch</a></button>
+          <button ><a href="#social" style="text-decoration:none;color:black">Get in touch</a></button>
      
       </div>
 
       <div class="col-md-6 col-12 text-center align-bottom">
         
-        <img src="/computer.png" style="width:70%" alt="">
+        <img src="computer.png" style="width:70%" alt="">
         
       </div>
     </div>
@@ -55,7 +55,7 @@ h1 {
   text-align: left;
   padding: 0;
   margin: 0;
-  font-size: 6rem;
+  font-size: clamp(3rem,6vw,8rem);
 }
 .align-bottom {
       align-self: end;

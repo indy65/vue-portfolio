@@ -1,7 +1,7 @@
 <template>
-  <div id="social">
+  <div id="social" class="pt-5">
     <div class="container pt-5">
-      <h1 class="text-center mb-5">Want to know more about me?</h1>
+      <h1 class="text-center mb-5">How to get in touch with me and my work</h1>
       <div class="row m-auto text-center col-8">
         <div class="col">
           <a
@@ -11,18 +11,20 @@
             <img
               src="https://freeiconshop.com/wp-content/uploads/edd/linkedin-flat.png"
               alt="Linkedin"
-              style="width: 128px"
+              style="max-width: 128px"
               title="Linkedin"
-              class=""
+              class="w-100 animation"
           /></a>
         </div>
         <div class="col">
           <a href="" target="_blank">
             <img
-              src="https://www.shareicon.net/data/256x256/2017/02/09/878610_email_512x512.png"
+              src="email.png"
               alt="Email"
-              style="width: 128px"
+              style="max-width: 128px;animation-delay:1s;"
               title="Email"
+              class="w-100 animation"
+              @click="openEmail()"
           /></a>
         </div>
         <div class="col">
@@ -30,8 +32,9 @@
             <img
               src="github.png"
               alt="Github"
-              style="width: 128px"
+              style="max-width: 128px;animation-delay:2s;"
               title="Github"
+              class="w-100 animation"
           /></a>
         </div>
         <div class="col-12 text-center mt-5">
@@ -44,7 +47,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods:{
+    openEmail(){
+       window.location = "mailto:joaocerqueira65@hotmail.com";
+    }
+  }
+};
 </script>
 
 <style scoped>
@@ -65,4 +74,16 @@ h1 {
   bottom: 0;
   left: 0;
 }
+.animation{
+ animation: float 5s linear infinite;
+ 
+}
+
+@keyframes float{
+
+  0%{transform: translateY(0px);}
+  50%{transform: translateY(30px);}
+  100%{transform: translateY(0px);}
+}
+
 </style>

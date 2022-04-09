@@ -5,16 +5,16 @@
         <div class="col-xl-6 order-2 order-xl-1 ">
           <p class="text-fluid">
             Im João Cerqueira from Portugal and im a Front end developer who's
-            goal is to become the javascript master and a reliable programer
+            goal is to become a javascript master and a reliable programer
           </p>
 
           <p class="text-fluid">
-            I focus mainly on javascript framerworks such as Vuejs and React
+            I focus mainly on javascript frameworks such as Vuejs and React
             while styling my UI with mainly bootstrap and pure CSS
           </p>
 
           <p class="text-fluid">
-            Always keeping an eye open for the new ways of coding by building
+            Always keeping an eye open for new ways of coding by building
             small projects, curious? check out my git repository &#128516; !
           </p>
           
